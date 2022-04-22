@@ -1,0 +1,27 @@
+{
+  "name": "car-rent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node ./seed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasSilvaSouzaD/car-rent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasSilvaSouzaD/car-rent/issues"
+  },
+  "homepage": "https://github.com/LucasSilvaSouzaD/car-rent#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^6.2.0"
+  }
+}
