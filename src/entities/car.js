@@ -8,6 +8,7 @@ class Car extends Base {
         this.avaliable = avaliable
         this.gasAvailable = gasAvailable
     }
+
 }
 
 module.exports = Car

@@ -53,5 +53,4 @@ const write = (filename, data) => writeFile(join(seederBaseFolder, filename), JS
 
     await write('customer.json', customers)
 
-
 })()
