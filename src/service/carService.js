@@ -1,5 +1,13 @@
 const BaseRepository = require("../repository/base/baseRepository")
 
 class CarService {
-    BaseRepository
+    constructor({ cars }) {
+        this.carRepository = new BaseRepository({ file: cars })  
+    }
+    
+    test() {
+        return this.carRepository.find()
+    }
 }
+
+module.exports = CarService
