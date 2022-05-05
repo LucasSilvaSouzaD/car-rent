@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "npx mocha -w --parellel **/**/*.test.js",
-    "test:cov": "npx nyc npx mocha --parellel **/**/*.test.js",
+    "test": "npx mocha -w --parellel",
+    "test:cov": "npx nyc npx mocha --parellel",
     "seed": "node ./seed"
   },
   "repository": {
@@ -24,7 +24,8 @@
   "homepage": "https://github.com/LucasSilvaSouzaD/car-rent#readme",
   "devDependencies": {
     "@faker-js/faker": "^6.2.0",
-    "mocha": "^8.4.0",
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
     "nyc": "^15.1.0",
     "sinon": "^9.2.4"
   }

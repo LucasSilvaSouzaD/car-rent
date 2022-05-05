@@ -1,13 +1,19 @@
 [{
-    "id": "2f5814e2-95fe-4f6b-a413-544abb9cb01c",
-    "name": "Camry",
-    "releaseYear": 2021
+    "id": "d18c5a96-d44b-4d4c-afc6-2411d394242f",
+    "name": "Taurus",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
 }, {
-    "id": "58d0a015-1f08-481d-b5b8-03b145bdb35a",
-    "name": "Sentra",
-    "releaseYear": 2021
+    "id": "83cea5e6-4708-47c0-a692-239af1a3af91",
+    "name": "Explorer",
+    "releaseYear": 2021,
+    "available": true,
+    "gasAvailable": true
 }, {
-    "id": "398783a8-f774-4076-b34b-6087ea0dfaf2",
-    "name": "Durango",
-    "releaseYear": 2021
+    "id": "e421a29b-43f4-41a9-9125-26d43831804f",
+    "name": "PT Cruiser",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
 }]

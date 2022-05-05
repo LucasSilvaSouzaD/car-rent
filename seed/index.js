@@ -26,7 +26,7 @@ for (let index = 0; index <= ITEMS_AMOUNT; index++) {
         id: faker.datatype.uuid(),
         name: faker.vehicle.model(),
         available: true,
-        gasAvaliable: true,
+        gasAvailable: true,
         releaseYear: faker.date.past().getFullYear()
     })
     
